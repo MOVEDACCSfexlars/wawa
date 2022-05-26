@@ -5,5 +5,8 @@
 # Wawa
 ### Mod for Minecraft Forge
 
-Adds the funny little cat called wawa inside of minecraft!
+Adds the funny little cat called wawa inside of Minecraft!
+
+<br />
+
 ![Screenshot](https://user-images.githubusercontent.com/63706991/170588199-52e61ced-151e-42fa-9feb-b94fceb73bc8.png)
