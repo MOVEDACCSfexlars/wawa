@@ -1,5 +1,6 @@
 package me.fexlar.wawa;
 
+import me.fexlar.wawa.core.init.BlockInit;
 import me.fexlar.wawa.core.init.ItemInit;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -11,6 +12,7 @@ public class wawa {
     public wawa() {
         var bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        BlockInit.BLOCKS.register(bus);
         ItemInit.ITEMS.register(bus);
     }
 }
