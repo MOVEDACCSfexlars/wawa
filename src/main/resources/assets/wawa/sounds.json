@@ -1,0 +1,6 @@
+{
+  "entity.wawa_entity.ambient": {
+    "subtitle": "wawa.subtitle.wawa_ambient",
+    "sounds": [ "wawa:wawa_ambient" ]
+  }
+}

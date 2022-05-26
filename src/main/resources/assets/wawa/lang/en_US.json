@@ -1,5 +1,6 @@
 {
   "item.wawa.wawa_spawn_egg": "Wawa Spawn Egg",
   "block.wawa.test_block": "Wawa Block",
-  "entity.wawa.wawa_entity": "Wawa"
+  "entity.wawa.wawa_entity": "Wawa",
+  "wawa.subtitle.wawa_ambient": "Wawa Purr"
 }

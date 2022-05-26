@@ -2,6 +2,7 @@ package me.fexlar.wawa.common.entity;
 
 import me.fexlar.wawa.core.init.EntityInit;
 import me.fexlar.wawa.core.init.ItemInit;
+import me.fexlar.wawa.core.init.SoundInit;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -38,12 +39,14 @@ public class WawaEntity extends Animal {
         return Mob.createMobAttributes().add(Attributes.MAX_HEALTH, 10.0D).add(Attributes.MOVEMENT_SPEED, (double)0.3F).add(Attributes.ATTACK_DAMAGE, 3.0D);
     }
 
+    protected SoundEvent getAmbientSound() { return SoundInit.WAWA_ENTITY_AMBIENT.get(); }
+
     protected SoundEvent getHurtSound(DamageSource p_28160_) {
-        return SoundEvents.CAT_HURT;
+        return SoundInit.WAWA_ENTITY_AMBIENT.get();
     }
 
     protected SoundEvent getDeathSound() {
-        return SoundEvents.CAT_DEATH;
+        return SoundInit.WAWA_ENTITY_AMBIENT.get();
     }
 
     @Override
