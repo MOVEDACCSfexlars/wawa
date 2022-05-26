@@ -1,4 +1,5 @@
 {
   "item.wawa.test_item": "Wawa",
-  "block.wawa.test_block": "Wawa Block"
+  "block.wawa.test_block": "Wawa Block",
+  "entity.wawa.wawa_entity": "Wawa"
 }
