@@ -13,7 +13,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class BlockInit {
     private BlockInit() {}
 
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create((ResourceLocation) ForgeRegistries.BLOCKS, wawa.MODID);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, wawa.MODID);
 
     public static final RegistryObject<Block> TEST_BLOCK = BLOCKS.register("test_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.SCULK, MaterialColor.COLOR_LIGHT_BLUE)));
