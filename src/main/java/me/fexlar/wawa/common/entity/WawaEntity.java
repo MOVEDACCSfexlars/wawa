@@ -32,7 +32,6 @@ public class WawaEntity extends Animal {
         this.goalSelector.addGoal(10, new BreedGoal(this, 0.8D));
         this.goalSelector.addGoal(11, new WaterAvoidingRandomStrollGoal(this, 0.8D, 1.0000001E-5F));
         this.goalSelector.addGoal(12, new LookAtPlayerGoal(this, Player.class, 10.0F));
-        this.goalSelector.addGoal(13, new TemptGoal(this, 1.2D, Ingredient.of(ItemInit.TEST_ITEM.get()), false));
     }
 
     public static AttributeSupplier.Builder createAttributes() {
