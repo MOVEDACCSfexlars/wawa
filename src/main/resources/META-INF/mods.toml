@@ -2,20 +2,20 @@ modLoader="javafml"
 loaderVersion="[40,)"
 license="GNU GPLv3"
 [[mods]]
-modId="examplemod"
+modId="wawa"
 version="${file.jarVersion}"
-displayName="Example Mod"
-logoFile="examplemod.png"
-credits="Thanks for this example mod goes to Java"
-authors="Love, Cheese and small house plants"
-description=''''''
-[[dependencies.examplemod]]
+displayName="Wawa Mod"
+logoFile="wawa.png"
+credits=""
+authors="fexlar"
+description='''Adds Wawa chain store and Wawa cat inside of the game.'''
+[[dependencies.wawa]]
     modId="forge"
     mandatory=true
     versionRange="[40,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.examplemod]]
+[[dependencies.wawa]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2,1.19)"
